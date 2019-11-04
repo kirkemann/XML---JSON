@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <movie>
+        <title>Joker</title>
+        <year>2019</year>
+        <instructor>Todd Phillips</instructor>
+        <country>USA</country>
+        <censur>15</censur>
+        <rating>8.8</rating>
+    </movie>
+    <movie>
+        <title>Terminator 6: Dark Fate</title>
+        <year>2019</year>
+        <instructor>Tim Miller</instructor>
+        <country>USA</country>
+        <censur>15</censur>
+        <rating>6.6</rating>
+    </movie>
+    <movie>
+        <title>The King</title>
+        <year>2019</year>
+        <instructor>David Michôd</instructor>
+        <country>English</country>
+        <censur>R</censur>
+        <rating>7.4</rating>
+    </movie>
+</catalog>

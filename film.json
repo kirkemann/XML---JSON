@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Joker",
+        "year": 2019,
+        "instructor": "Todd Phillips",
+        "country": "USA",
+        "censur": 15,
+        "rating": 8.8
+    },
+    {
+        "title": "Terminator 6: Dark Fate",
+        "year": 2019,
+        "instructor": "Tim Miller",
+        "country": "USA",
+        "censur": 15,
+        "rating": 6.6
+    },
+    {
+        "title": "The King",
+        "year": 2019,
+        "instructor": "David Michôd",
+        "country": "English",
+        "censur": "R",
+        "rating": 7.4
+    }
+]
