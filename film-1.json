@@ -5,7 +5,11 @@
         "instructor": "Todd Phillips",
         "country": "USA",
         "censur": 15,
-        "rating": 8.8
+        "rating": 8.8,
+        "foods": {
+            "drinks": ["Coke Cola", "Fanta"],
+            "snaks": ["Popcorn", "Icecream"]
+        }
     },
     {
         "title": "Terminator 6: Dark Fate",
@@ -13,7 +17,11 @@
         "instructor": "Tim Miller",
         "country": "USA",
         "censur": 15,
-        "rating": 6.6
+        "rating": 6.6,
+        "foods": {
+            "drinks": ["Coke Cola", "Fanta"],
+            "snaks": ["Popcorn", "Icecream"]
+        }
     },
     {
         "title": "The King",
@@ -21,6 +29,10 @@
         "instructor": "David Michôd",
         "country": "English",
         "censur": "R",
-        "rating": 7.4
+        "rating": 7.4,
+        "foods": {
+            "drinks": ["Coke Cola", "Fanta"],
+            "snaks": ["Popcorn", "Icecream"]
+        }
     }
 ]

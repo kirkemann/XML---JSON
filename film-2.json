@@ -5,7 +5,11 @@
         "instructor": "Mike Flanagan",
         "country": "USA",
         "censur": 15,
-        "rating": 7.5
+        "rating": 7.5,
+        "foods": {
+            "drinks": ["Coke Cola", "Fanta"],
+            "snaks": ["Popcorn", "Icecream"]
+        }
     },
     {
         "title": "Dolemite Is My Name",
@@ -13,7 +17,11 @@
         "instructor": "Craig Brewer",
         "country": "USA",
         "censur": "R",
-        "rating": 7.4
+        "rating": 7.4,
+        "foods": {
+            "drinks": ["Coke Cola", "Fanta"],
+            "snaks": ["Popcorn", "Icecream"]
+        }
     },
     {
         "title": "The Lighthouse",
@@ -21,6 +29,10 @@
         "instructor": "Robert Eggers",
         "country": " Canada ",
         "censur": "R",
-        "rating": 8.3
+        "rating": 8.3,
+        "foods": {
+            "drinks": ["Coke Cola", "Fanta"],
+            "snaks": ["Popcorn", "Icecream"]
+        }
     }
 ]

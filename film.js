@@ -6,7 +6,7 @@ btn.addEventListener("click", function() {
 
     let myFilm = new XMLHttpRequest();
 
-myFilm.open('GET', 'https://raw.githubusercontent.com/kirkemann/XML---JSON/master/film.json');
+myFilm.open('GET', 'https://raw.githubusercontent.com/kirkemann/XML---JSON/master/film-' + pageCounter + '.json');
 
 myFilm.onload = function() {
     let ourData = JSON.parse(myFilm.responseText);
@@ -14,6 +14,10 @@ myFilm.onload = function() {
 };
 
 myFilm.send();
+pageCounter++;
+if (pageCounter > 3) {
+    btn.classList.add("hide");
+}
 
 });
 
@@ -21,9 +25,13 @@ function renderHTML(data) {
     let htmldata = "";
 
     for (i = 0; i < data.length; i++) {
-        htmldata += "<p>" + data[i].title + " is from " + data[i].year + " made of " + data[i].instructor + " made in " + data[i].country + " and have a censur by " + data[i].censur + " and have a rating at " + data[i].rating + ".</p>"; 
+        htmldata += "<p>" + data[i].title + " is from " + data[i].year + " made of " + data[i].instructor + " made in " + data[i].country + " and have a censur by " + data[i].censur + " and have a rating at " + data[i].rating + " you have to take a"; 
 
-    filmContainer.insertAdjacentHTML('beforeend', htmldata);
+        // for (ii = 0; ii < data[i].foods.drinks.length; ii++) {
+        //     htmldata += data[i].foods.drinks[ii];
+        // }
+        htmldata += ".</p>";
+}    
+filmContainer.insertAdjacentHTML('beforeend', htmldata);
 
-}
 }

@@ -5,7 +5,11 @@
         "instructor": "Kenny Ortega",
         "country": "USA",
         "censur": "PG",
-        "rating": 6.8
+        "rating": 6.8,
+        "foods": {
+            "drinks": ["Coke Cola", "Fanta"],
+            "snaks": ["Popcorn", "Icecream"]
+        }
     },
     {
         "title": "Dolemite",
@@ -13,7 +17,11 @@
         "instructor": "D'Urville Martin",
         "country": "USA",
         "censur": 15,
-        "rating": 5.9
+        "rating": 5.9,
+        "foods": {
+            "drinks": ["Coke Cola", "Fanta"],
+            "snaks": ["Popcorn", "Icecream"]
+        }
     },
     {
         "title": "Ondskabens hotel",
@@ -21,6 +29,10 @@
         "instructor": "Stanley Kubrick",
         "country": "UK",
         "censur": "15",
-        "rating": 8.4
+        "rating": 8.4,
+        "foods": {
+            "drinks": ["Coke Cola", "Fanta"],
+            "snaks": ["Popcorn", "Icecream"]
+        }
     }
 ]
