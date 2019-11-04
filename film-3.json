@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Hokus Pokus",
+        "year": 1993,
+        "instructor": "Kenny Ortega",
+        "country": "USA",
+        "censur": "PG",
+        "rating": 6.8
+    },
+    {
+        "title": "Dolemite",
+        "year": 1975,
+        "instructor": "D'Urville Martin",
+        "country": "USA",
+        "censur": 15,
+        "rating": 5.9
+    },
+    {
+        "title": "Ondskabens hotel",
+        "year": 1980,
+        "instructor": "Stanley Kubrick",
+        "country": "UK",
+        "censur": "15",
+        "rating": 8.4
+    }
+]

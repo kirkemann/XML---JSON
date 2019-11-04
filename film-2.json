@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Doctor Sleep",
+        "year": 2019,
+        "instructor": "Mike Flanagan",
+        "country": "USA",
+        "censur": 15,
+        "rating": 7.5
+    },
+    {
+        "title": "Dolemite Is My Name",
+        "year": 2019,
+        "instructor": "Craig Brewer",
+        "country": "USA",
+        "censur": "R",
+        "rating": 7.4
+    },
+    {
+        "title": "The Lighthouse",
+        "year": 2019,
+        "instructor": "Robert Eggers",
+        "country": " Canada ",
+        "censur": "R",
+        "rating": 8.3
+    }
+]
